@@ -18,7 +18,7 @@ Mean total number of steps taken per day
 
     qplot(stepsByDay, xlab='Total steps per day', ylab='Frequency using binwith 500', binwidth=500)
 
-![plot of chunk unnamed-chunk-3-1](PA1_template_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+![plot of chunk unnamed-chunk-3-1](doc/unnamed-chunk-3-1.png)
 
 Calculate and report the mean and median total number of steps taken per day
 ----------------------------------------------------------------------------
@@ -45,7 +45,7 @@ Make a time series plot
         xlab("5-minute interval") +
         ylab("average number of steps taken")
 
-![plot of chunk unnamed-chunk-6-1](PA1_template_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+![plot of chunk unnamed-chunk-6-1](doc/unnamed-chunk-6-1.png)
 
 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps
 ------------------------------------------------------------------------------------------------------
@@ -84,7 +84,7 @@ Make a histogram of the total number of steps taken each day
     qplot(stepsByDayImputed, xlab='Total steps per day (Imputed)',
           ylab='Frequency using binwith 500', binwidth=500)
 
-![plot of chunk unnamed-chunk-10-1](PA1_template_files/figure-markdown_strict/unnamed-chunk-10-1.png)
+![plot of chunk unnamed-chunk-10-1](doc/unnamed-chunk-10-1.png)
 
 Calculate and report the mean and median total number of steps taken per day.
 -----------------------------------------------------------------------------
@@ -117,4 +117,4 @@ Panel plot containing a time series plot
         xlab("5-minute interval") + 
         ylab("avarage number of steps")
 
-![plot of chunk unnamed-chunk-13-1](PA1_template_files/figure-markdown_strict/unnamed-chunk-13-1.png)
+![plot of chunk unnamed-chunk-13-1](doc/unnamed-chunk-13-1.png)
